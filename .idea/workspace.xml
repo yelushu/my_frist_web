@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="254f9d38-ccc2-4fbe-a9c6-a5be474e53ca" name="Changes" comment="" />
+    <list default="true" id="254f9d38-ccc2-4fbe-a9c6-a5be474e53ca" name="Changes" comment="1">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/libs/Helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/libs/Helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/libs/member/MemberService.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/libs/member/MemberService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/food/Food_Cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/food/Food_Cat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/local_setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/local_setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/Account/Account.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/Account/Account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/Food/food.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/Food/food.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/api/Food.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/api/Food.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/api/Member.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/api/Member.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/upload/Upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/upload/Upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/interceptors/ApiAuthInterceptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/interceptors/ApiAuthInterceptor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/interceptors/AuthInterceptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/interceptors/AuthInterceptor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/interceptors/ErrorInterceptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/interceptors/ErrorInterceptor.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,19 +36,25 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2UlwIuMH0JQChq43l8DDSwopCOg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/neo/Desktop/python/pycharm/my_frist_web/static/plugins/ueditor/upload&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
@@ -197,6 +221,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="254f9d38-ccc2-4fbe-a9c6-a5be474e53ca" name="Changes" comment="" />
@@ -205,10 +232,36 @@
       <option name="presentableId" value="Default" />
       <updated>1693527398637</updated>
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1703421606865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703421606865</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1">
+      <created>1703421662583</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703421662583</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/interceptors/ErrorInterceptor.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">

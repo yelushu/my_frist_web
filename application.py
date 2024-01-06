@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#用于配置总体信息，并关联起来
 from flask import Flask
 
 from flask_script import Manager
@@ -26,7 +27,6 @@ from common.libs.UrlManager import UrlManager
 app.add_template_global(UrlManager.buildStaticUrl,'buildStaticUrl')#因为url和版本进行管理了（在UrlManager中），需要通过这个函数把管理函数传到html中
 app.add_template_global(UrlManager.buildUrl,'buildUrl')
 app.add_template_global(UrlManager.buildImageUrl, 'buildImageUrl')
-
 
 
 

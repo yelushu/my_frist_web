@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#如果运行期间报错，引导到这个页面
 from application import  app
 from common.libs.Helper import ops_render
 from common.libs.LogService import LogService

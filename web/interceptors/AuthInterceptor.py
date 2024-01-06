@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#用于web端：用户身份识别和查询该用户是否存在
 from application import app
 from flask import request,g,redirect
 
@@ -41,7 +42,7 @@ def before_request():
 
 
 # '''
-# 判断用户是否已经登录
+
 # '''
 def check_login():
     cookies = request.cookies

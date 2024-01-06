@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+# 小程序会员拦截器，因为小程序不能通过token识别，所以需要通过heard头部，课程11-1
+
+
+
+
 from application import app
 from flask import request,g,jsonify
 
@@ -14,7 +19,7 @@ def before_request_api():
     api_ignore_urls = app.config['API_IGNORE_URLS']
 
     path = request.path
-    if '/api' not in path:
+    if '/api' not in path:#与web差不多，如果路径中有api的字符，就不拦截
         return
 
     member_info = check_member_login()

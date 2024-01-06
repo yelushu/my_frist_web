@@ -6,6 +6,7 @@ from application import db#使用统一的db
 class FoodCat(db.Model):
     __tablename__ = 'food_cat'
 
+
     id = db.Column(db.Integer, primary_key=True, unique=True)
     name = db.Column(db.String(50), nullable=False, server_default=db.FetchedValue(), info='类别名称')
     weight = db.Column(db.Integer, nullable=False, server_default=db.FetchedValue(), info='权重')

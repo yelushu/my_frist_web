@@ -74,6 +74,7 @@ def info():
 
 @route_food.route( "/set" ,methods = [ 'GET','POST'] )
 def set():
+    #todo：在食品页面是如何引用ueitor的
     if request.method == "GET":
         resp_data = {}
         req = request.args

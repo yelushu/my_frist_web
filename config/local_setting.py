@@ -35,8 +35,8 @@ STATUS_MAPPING={
 }
 #小程序相关信息
 MINA_APP={
-    'app_id':'wx26a343aa56d9cace',
-    'api_key':'c1e561bf3c5c1b6f0e73683ae5315ac1',
+    'app_id':'wxb91a2c31bb9caac2',
+    'app_key':'8fa753c8e7c9d76b428280b4592d0f2c',
     'paykey':'xxxxxxxxxxxxxx换自己的',
     'mch_id':'xxxxxxxxxxxx换自己的',
     'callback_url':'/api/order/callback'
@@ -44,7 +44,7 @@ MINA_APP={
 }
 
 APP = {
-    'domain':'http://192.168.0.104:8999'
+    'domain':'http://127.0.0.1:8999/api/'
 }
 
 

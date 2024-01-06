@@ -15,6 +15,7 @@ route_upload = Blueprint('upload_page', __name__)
 def ueditor():
 
 	req = request.values
+	print('reqs',req)
 	action = req['action'] if 'action' in req else ''
 
 	if action == "config":

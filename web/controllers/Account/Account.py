@@ -44,7 +44,9 @@ def index():
     resp_data['pages'] = pages
     resp_data['search_con']=req
     resp_data['status_mapping'] = app.config['STATUS_MAPPING']
+
     return ops_render('/account/index.html',resp_data)
+
 
 @route_account.route('/info')
 def info():

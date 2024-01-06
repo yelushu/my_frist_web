@@ -14,9 +14,10 @@ from sqlalchemy import  or_
 @route_api.route("/food/index" )
 def foodIndex():
     resp = { 'code':200 ,'msg':'操作成功s~','data':{} }
+    print('lll')
     cat_list = FoodCat.query.filter_by( status = 1 ).order_by( FoodCat.weight.desc() ).all()
     data_cat_list = []
-    print('cat_listss',cat_list)
+
     data_cat_list.append({
         'id': 0,
         'name': "全部"
